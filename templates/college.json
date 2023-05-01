@@ -1,0 +1,120 @@
+{
+    "suggestedLocations": [
+        {
+            "distance": 15,
+            "eLoc": "OMWD7D",
+            "keywords": [
+                "COMEOT"
+            ],
+            "orderIndex": 1,
+            "placeAddress": "Davv Takshila Parisar, Indore, Madhya Pradesh, 452001",
+            "placeName": "M Block IET DAVV",
+            "type": "POI"
+        },
+        {
+            "distance": 40,
+            "eLoc": "3A2F5D",
+            "keywords": [
+                "COMCLG"
+            ],
+            "orderIndex": 2,
+            "placeAddress": "Pacl Campus, Harnya Khedi, Indore, Madhya Pradesh, 452001",
+            "placeName": "Indian Institute of Technology Indore",
+            "type": "POI"
+        },
+        {
+            "distance": 109,
+            "eLoc": "MKHO1C",
+            "keywords": [
+                "COMCLG"
+            ],
+            "orderIndex": 3,
+            "placeAddress": "Khandwa Road, Devi Ahilya Vishwavidyalaya, Indore, Madhya Pradesh, 452001",
+            "placeName": "Institute of Engineering and Technology",
+            "type": "POI"
+        },
+        {
+            "distance": 164,
+            "eLoc": "B07XES",
+            "keywords": [
+                "COMEOT"
+            ],
+            "orderIndex": 4,
+            "placeAddress": "Davv Takshila Parisar, Indore, Madhya Pradesh, 452001",
+            "placeName": "Mechanical Workshop",
+            "type": "POI"
+        },
+        {
+            "distance": 216,
+            "eLoc": "4CF8TT",
+            "keywords": [
+                "COMEOT"
+            ],
+            "orderIndex": 5,
+            "placeAddress": "Khandwa Naka, Khandwa Road, Indore, Madhya Pradesh, 452001",
+            "placeName": "Hemkunt Campus",
+            "type": "POI"
+        },
+        {
+            "distance": 218,
+            "eLoc": "F0UQRV",
+            "keywords": [
+                "CLGDPT"
+            ],
+            "orderIndex": 6,
+            "placeAddress": "Maharaja Ranjit Singh College of Professional Sciences, Indore, Madhya Pradesh, 452001",
+            "placeName": "Management Department",
+            "type": "POI"
+        },
+        {
+            "distance": 274,
+            "eLoc": "7BX04H",
+            "keywords": [
+                "COMCLG"
+            ],
+            "orderIndex": 7,
+            "placeAddress": "Kumharbhatta, Indore, Madhya Pradesh, 452001",
+            "placeName": "Shri Guru Gobind Singh Law College",
+            "type": "POI"
+        },
+        {
+            "distance": 297,
+            "eLoc": "E352C4",
+            "keywords": [
+                "COMCLG"
+            ],
+            "orderIndex": 8,
+            "placeAddress": "Hemkunt Campus, Near IET-DAVV, Khandwa Road, Indore, Madhya Pradesh, 452001",
+            "placeName": "Maharaja Ranjit Singh College of Professional Science",
+            "type": "POI"
+        },
+        {
+            "distance": 319,
+            "eLoc": "T643T6",
+            "keywords": [
+                "COMCLG"
+            ],
+            "orderIndex": 9,
+            "placeAddress": "Takhshshila Campus, Khandwa Road, Indore, Madhya Pradesh, 452001",
+            "placeName": "School of Pharmacy Devi Ahilya Vishwavidyalaya",
+            "type": "POI"
+        },
+        {
+            "distance": 333,
+            "eLoc": "1475BE",
+            "keywords": [
+                "COMEOT"
+            ],
+            "orderIndex": 10,
+            "placeAddress": "Kumharbhatta, Indore, Madhya Pradesh, 452001",
+            "placeName": "Auckland Academy School",
+            "type": "POI"
+        }
+    ],
+    "pageInfo": {
+        "pageCount": 1,
+        "totalHits": 1458,
+        "totalPages": 146,
+        "pageSize": 10
+    }
+}

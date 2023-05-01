@@ -1,0 +1,120 @@
+{
+    "suggestedLocations": [
+        {
+            "distance": 55,
+            "eLoc": "49TYR8",
+            "keywords": [
+                "FODOTH"
+            ],
+            "orderIndex": 1,
+            "placeAddress": "Kumharbhatta, Indore, Madhya Pradesh, 452001",
+            "placeName": "Canteen",
+            "type": "POI"
+        },
+        {
+            "distance": 273,
+            "eLoc": "VNVECY",
+            "keywords": [
+                "FODOTH"
+            ],
+            "orderIndex": 2,
+            "placeAddress": "Davv Takshila Parisar, Indore, Madhya Pradesh, 452001",
+            "placeName": "Sharma Ji Ki Canteen",
+            "type": "POI"
+        },
+        {
+            "distance": 350,
+            "eLoc": "UVXUFT",
+            "keywords": [
+                "FODPUB"
+            ],
+            "orderIndex": 3,
+            "placeAddress": "Khandwa Road, Limbodi, Bhawar Kuan, Indore, Madhya Pradesh, 452001",
+            "placeName": "Shree Sapna Restaurant & Bar",
+            "type": "POI"
+        },
+        {
+            "distance": 372,
+            "eLoc": "UCU7WP",
+            "keywords": [
+                "FODOTH"
+            ],
+            "orderIndex": 4,
+            "placeAddress": "Behind Bsnl Office, Khandwa Road, Morda Patak, Indore, Madhya Pradesh, 452001",
+            "placeName": "Fun and Food",
+            "type": "POI"
+        },
+        {
+            "distance": 420,
+            "eLoc": "OB8VXL",
+            "keywords": [
+                "FODIND"
+            ],
+            "orderIndex": 5,
+            "placeAddress": "Khandwa Road, Bhawar Kuan, Kumharbhatta, Indore, Madhya Pradesh, 452001",
+            "placeName": "Shiv Sagar Food Villa",
+            "type": "POI"
+        },
+        {
+            "distance": 420,
+            "eLoc": "UPMIVQ",
+            "keywords": [
+                "FODIND"
+            ],
+            "orderIndex": 6,
+            "placeAddress": "Khandwa Road, Near Swami Narayan Mandir, Bhawar Kuan, Indore, Madhya Pradesh, 452001",
+            "placeName": "Mayra Restaurant & Nasta Point",
+            "type": "POI"
+        },
+        {
+            "distance": 508,
+            "eLoc": "SSOIII",
+            "keywords": [
+                "FODCOF"
+            ],
+            "orderIndex": 7,
+            "placeAddress": "Near Swaminarayan Mandir, Khandwa Road, Indore, Madhya Pradesh, 452001",
+            "placeName": "Ramesh South Indian",
+            "type": "POI"
+        },
+        {
+            "distance": 563,
+            "eLoc": "2AR1RP",
+            "keywords": [
+                "FODRDS"
+            ],
+            "orderIndex": 8,
+            "placeAddress": "Indore Khandwa Road, Ghadvanala, Indore, Madhya Pradesh, 452001",
+            "placeName": "Madhur Dhaba and Bhojanalay",
+            "type": "POI"
+        },
+        {
+            "distance": 563,
+            "eLoc": "U3577Q",
+            "keywords": [
+                "FODOTH"
+            ],
+            "orderIndex": 9,
+            "placeAddress": "Indore Khandwa Road, Ghadvanala, Indore, Madhya Pradesh, 452001",
+            "placeName": "Sigdi Restaurant",
+            "type": "POI"
+        },
+        {
+            "distance": 567,
+            "eLoc": "SQ04KW",
+            "keywords": [
+                "FODOTH"
+            ],
+            "orderIndex": 10,
+            "placeAddress": "Indore Khandwa Road, Ghadvanala, Indore, Madhya Pradesh, 452001",
+            "placeName": "Ramesh South Indian Dosa",
+            "type": "POI"
+        }
+    ],
+    "pageInfo": {
+        "pageCount": 1,
+        "totalHits": 6101,
+        "totalPages": 611,
+        "pageSize": 10
+    }
+}

@@ -1,0 +1,136 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <title>NIT Srinagar Parking</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style.css') }}"
+    />
+  </head>
+  <body>
+    <div class="banner">
+      <div class="navbar">
+        <img
+          src="{{ url_for('static', filename='images/logo.png') }}"
+          class="logo"
+        />
+        <ul>
+          <li>
+            <a href="/homePage" data-dismiss="modal" data-toggle="modal"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a class="nav-link" href="#addWalletMoney">Wallet</a>
+
+            <!-- <div class="modal-footer">
+              Don't have an account?
+              <a href="#registerModal" data-dismiss="modal" data-toggle="modal">
+                Wallet</a
+              >
+            </div> -->
+
+            <!-- <a href="#walletOpen" class="wallet-link">
+              <i class="fa fa-google-wallet" aria-hidden="true"></i>
+              <span class="wallet-label">Wallet</span>
+              <div id="walletOpen" class="wallet-box">
+                <form method="post" action="/login" name="login">
+                  <div class="form-group mt-3 mb-3">
+                    <div class="input-group">
+                      <label for="email">Email:</label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="email"
+                        name="email"
+                        placeholder="Enter your email id"
+                        required="required"
+                      />
+                    </div>
+                  </div>
+                  <div class="form-group mt-3 mb-3">
+                    <div class="input-group">
+                      <label for="password">Password:</label>
+                      <input
+                        type="password"
+                        class="form-control"
+                        name="password"
+                        placeholder="Enter your password"
+                        required="required"
+                      />
+                    </div>
+                  </div>
+                  <div class="form-group text-center mt-2 mb-0">
+                    <button type="submit" class="btn btn-dark btn-md">Login</button>
+                  </div>
+                </form>
+              </div>
+            </a> -->
+          </li>
+
+          <li>
+            <form action="/logout" method="GET">
+              <button type="submit" class="btn btn-link text-danger">
+                <i class="fa fa-sign-out" aria-hidden="true"></i>
+              </button>
+            </form>
+          </li>
+        </ul>
+      </div>
+
+      <h1 class="dashboard-title">
+        Welcome to your dashboard, {{ session['user_name'] }}!
+      </h1>
+      <div class="user-info">
+        <h2>User Information</h2>
+        <ul>
+          <li><strong>User Name:</strong> {{ session['user_name'] }}</li>
+          <li><strong>Email ID:</strong> {{ session['email_id'] }}</li>
+          <li>
+            <strong>Vehicle Number:</strong> {{ session['vehicle_number'] }}
+          </li>
+          <li><strong>Balance:</strong> {{ session['balance'] }}</li>
+
+          <div id="addWalletMoney" class="modal-body">
+            <form method="post" action="/add_funds" name="add_funds">
+              <div
+                class="form-group mt-3 mb-3"
+                style="display: flex; flex-direction: row; align-items: center"
+              >
+                <div class="input-group">
+                  <label for="name" style="display: block; margin-bottom: 10px"
+                    ><strong style="color: rgb(228, 158, 158)"
+                      >Want to Add Amount:</strong
+                    ></label
+                  >
+                  <input
+                    type="float"
+                    class="form-control"
+                    name="amount"
+                    placeholder="Enter Amount"
+                    required="required"
+                  />
+                </div>
+              </div>
+
+              <div class="form-group text-center">
+                <button
+                  id="signup-button"
+                  type="submit"
+                  class="btn btn-dark btn-md"
+                >
+                  <strong style="color: red"> Add Amount</strong>
+                </button>
+              </div>
+            </form>
+          </div>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>

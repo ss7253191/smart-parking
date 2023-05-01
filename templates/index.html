@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/static/custom.css" />
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+    <title>Parking Garage</title>
+  </head>
+
+  <body>
+    <!-- header -->
+    <section class="navBar">
+      <!-- NavBar -->
+      <nav class="navbar navbar-expand-sm bg-dark navbar-light sticky-top">
+        <div class="container-fluid">
+          <!-- Logo -->
+          <a class="navbar-brand" href="#">Parking <span>Garage</span></a>
+          <!-- Hamburger -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="hamburger" role="button">
+              <i
+                class="fa fa-bars"
+                aria-hidden="true"
+                style="color: #f9f9fc"
+              ></i>
+            </span>
+          </button>
+          <!-- NavBar items -->
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav ml-auto">
+              <!-- display username  -->
+              <!-- <li class="nav-item">
+                <span class="nav-link" id="navbar-txt"  style="color: #cececf;
+                text-shadow: 0px 0px 2px white;
+                text-transform: uppercase;
+                font-weight:bold;
+                letter-spacing: 1px;
+                word-spacing: 3px;
+                font-family: 'Poppins', sans-serif;"></span>
+              </li> -->
+              <li class="nav-item">
+                <a class="nav-link" href="/dashboard1">Dashboard</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/helpDesk">Help Desk</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/aboutUs">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  data-toggle="modal"
+                  class="btn btn-theme btn-primary text-white"
+                  id="reg-log"
+                  href="#registerModal"
+                  >SignUp/ Register</a
+                >
+                <!-- <a href="#loginModal" data-toggle="modal" class="btn btn-theme btn-primary text-white"> Login</a>
+                <a href="#registerModal" data-toggle="modal" class="btn btn-theme btn-success text-white">Register</a> -->
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <!-- Register/ LogIn Modal -->
+    <!-- login modal -->
+    <div id="loginModal" class="modal-style modal">
+      <div class="modal-dialog modal-login">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Login</h4>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-hidden="true"
+            >
+              &times;
+            </button>
+          </div>
+          <div class="modal-body">
+            <form method="post" action="/login" name="login">
+              <div class="form-group mt-3 mb-3">
+                <div class="input-group">
+                  <label for="email">Email:</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="email"
+                    name="email"
+                    placeholder="Enter your email id"
+                    required="required"
+                  />
+                </div>
+              </div>
+              <div class="form-group mt-3 mb-3">
+                <div class="input-group">
+                  <label for="password">Password:</label>
+                  <input
+                    type="password"
+                    class="form-control"
+                    name="password"
+                    placeholder="Enter your password"
+                    required="required"
+                  />
+                </div>
+              </div>
+              <div class="form-group text-center mt-2 mb-0">
+                <button type="submit" class="btn btn-dark btn-md">Login</button>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            Don't have an account?
+            <a href="#registerModal" data-dismiss="modal" data-toggle="modal">
+              Register</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- register modal -->
+    <div id="registerModal" class="modal-style modal">
+      <div class="modal-dialog modal-login">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Register</h4>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+          <div class="modal-body">
+            <form method="post" action="/" name="get_data">
+              <div class="form-group mt-3 mb-3">
+                <div class="input-group">
+                  <label for="name">Name:</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    name="name"
+                    placeholder="Enter your name"
+                    required="required"
+                  />
+                </div>
+              </div>
+              <div class="form-group mt-3 mb-3">
+                <div class="input-group">
+                  <label for="email">Email:</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    name="email"
+                    placeholder="Enter your email"
+                    required="required"
+                    autocomplete="on"
+                  />
+                </div>
+              </div>
+              <div class="form-group mt-3 mb-3">
+                <div class="input-group">
+                  <label for="vehicle-number">Vehicle number:</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    name="vehicle-number"
+                    placeholder="Enter your vehicle number"
+                    required="required"
+                    autocomplete="on"
+                  />
+                </div>
+              </div>
+              <div class="form-group mt-3 mb-3">
+                <div class="input-group">
+                  <label for="password">Password:</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    name="password"
+                    placeholder="Enter your password"
+                    required="required"
+                  />
+                </div>
+              </div>
+              <div class="form-group mt-3 mb-3">
+                <div class="input-group">
+                  <label for="vehicle-type">Vehicle type:</label>
+                  <select name="vehicle-type" id="vehicle-type">
+                    <option value="2">2</option>
+                    <option value="4">4</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group text-center">
+                <button
+                  id="signup-button"
+                  type="submit"
+                  class="btn btn-dark btn-md"
+                >
+                  Register
+                </button>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            Already have an account?
+            <a href="#loginModal" data-dismiss="modal" data-toggle="modal">
+              Login</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- body -->
+    <section class="main">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4 py-3" style="width: 18rem">
+            <div class="card box-shadow">
+              <div class="card-body">
+                <h5 class="card-title">Parking Space</h5>
+                <p class="card-text">Click to find out space for parking.</p>
+                <a href="/parking" class="btn btn-dark btn-md"
+                  >Access the website</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 py-3" style="width: 18rem">
+            <div class="card box-shadow">
+              <div class="card-body">
+                <h5 class="card-title">Public Amenities</h5>
+                <p class="card-text">
+                  Click to find out nearby public amenities.
+                </p>
+                <a href="/publicAmenities" class="btn btn-dark btn-md"
+                  >Access the website</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 py-3" style="width: 18rem">
+            <div class="card box-shadow">
+              <div class="card-body">
+                <h5 class="card-title">Parking Fees</h5>
+                <p class="card-text">Click to find out the fees for parking.</p>
+                <a href="/parkingFees" class="btn btn-dark btn-md"
+                  >Access the website</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <script> -->
+    <!-- // register script
+        // const scriptURL = 'https://script.google.com/macros/s/AKfycbx8Y0gD8ZjgEkulCiQnWB45u4C_TsL__ucXZKjdX_lswFcZyAnLHr_ahmq16voALjB49g/exec'
+        // const form = document.forms['register']
+
+        // form.addEventListener('submit', e => {
+        //     e.preventDefault()
+        //     fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+        //         .then(response => alert("Thank you! Your form is submitted successfully."))
+        //         .catch(error => console.error('Error!', error.message))
+        // })
+
+        // const scriptURL1 = 'https://script.google.com/macros/s/AKfycbxT0K9dL_K7Ph4qKoZG1YMOuYhB4jNb4TBG1ARnNe6DgwCNAiG0HHScSmArSalYVc9b/exec'
+        // const form1 = document.forms['login']
+
+        // form1.addEventListener('submit', e => {
+        //     e.preventDefault()
+        //     fetch(scriptURL1, { method: 'POST', body: new FormData(form1) })
+        //         .then(response => alert("Thank you! You are logged in successfully."))
+        //         .catch(error => console.error('Error!', error.message))
+        // }) -->
+
+    <!-- </script> -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- automatic Register/logIn pop-up  -->
+    <script>
+      // function regLog() {
+      //     $("#registerModal").modal('show');
+      // }
+      //$(document).ready(function () {
+      //  $("#registerModal").modal("show");
+      //});
+    </script>
+  </body>
+</html>

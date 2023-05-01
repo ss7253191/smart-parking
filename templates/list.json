@@ -1,0 +1,120 @@
+{
+    "suggestedLocations": [
+        {
+            "distance": 374,
+            "eLoc": "Q8W6WS",
+            "keywords": [
+                "HLTHSP"
+            ],
+            "orderIndex": 1,
+            "placeAddress": "Scheme No 94, Near Teen Imli Square, Ring Road, Sector 1, Chitawad, Indore, Madhya Pradesh, 452001",
+            "placeName": "Vishesh Jupiter Hospital",
+            "type": "POI"
+        },
+        {
+            "distance": 391,
+            "eLoc": "PCB1JH",
+            "keywords": [
+                "HSPSBC"
+            ],
+            "orderIndex": 2,
+            "placeAddress": "Sector Mahidpur, Near Gov School, Chitawad, Indore, Madhya Pradesh, 452001",
+            "placeName": "Sub Health Centre Chitawad",
+            "type": "POI"
+        },
+        {
+            "distance": 400,
+            "eLoc": "Y83NX2",
+            "keywords": [
+                "HLTHSP"
+            ],
+            "orderIndex": 3,
+            "placeAddress": "Teen Imli Square, Indore, Madhya Pradesh, 452001",
+            "placeName": "Vishesh Hospital 2",
+            "type": "POI"
+        },
+        {
+            "distance": 937,
+            "eLoc": "1JEPJ6",
+            "keywords": [
+                "HLTHSP"
+            ],
+            "orderIndex": 4,
+            "placeAddress": "Khandwa Road, Rani Bagh B, Indore, Madhya Pradesh, 452001",
+            "placeName": "Gaurav Hospital",
+            "type": "POI"
+        },
+        {
+            "distance": 990,
+            "eLoc": "CC5E2E",
+            "keywords": [
+                "HLTHSP"
+            ],
+            "orderIndex": 5,
+            "placeAddress": "Brij Nayani Nagar, Rani Bagh, Indore, Madhya Pradesh, 452001",
+            "placeName": "Sri Saniwant Parmanand Hospital",
+            "type": "POI"
+        },
+        {
+            "distance": 1013,
+            "eLoc": "ZTIQR8",
+            "keywords": [
+                "HLTHSP"
+            ],
+            "orderIndex": 6,
+            "placeAddress": "No 1, Anand Nagar, Chitawad Road, Navlakha, Indore, Madhya Pradesh, 452001",
+            "placeName": "Medipearl Hospital",
+            "type": "POI"
+        },
+        {
+            "distance": 1014,
+            "eLoc": "2RYY8P",
+            "keywords": [
+                "HLTHSP"
+            ],
+            "orderIndex": 7,
+            "placeAddress": "Dayal Bagh Colony, Khandwa Road, Near Holy Cross School, Indore, Madhya Pradesh, 452001",
+            "placeName": "Indore Trauma Centre",
+            "type": "POI"
+        },
+        {
+            "distance": 1206,
+            "eLoc": "1J05I7",
+            "keywords": [
+                "HLTHSP"
+            ],
+            "orderIndex": 8,
+            "placeAddress": "Palda, Indore, Madhya Pradesh, 452001",
+            "placeName": "Sagar Multi Speciality Hospital",
+            "type": "POI"
+        },
+        {
+            "distance": 1323,
+            "eLoc": "63VAXE",
+            "keywords": [
+                "HLTHSP"
+            ],
+            "orderIndex": 9,
+            "placeAddress": "Eastern Ring Road, Shivampuri Colony, Pipliya Rao, Indore, Madhya Pradesh, 452001",
+            "placeName": "Dada Nirbhay Singh Hospital",
+            "type": "POI"
+        },
+        {
+            "distance": 1327,
+            "eLoc": "51UDRU",
+            "keywords": [
+                "CLICHD"
+            ],
+            "orderIndex": 10,
+            "placeAddress": "Shri Ram Nagar, Palda, Indore, Madhya Pradesh, 452001",
+            "placeName": "Child Clinic",
+            "type": "POI"
+        }
+    ],
+    "pageInfo": {
+        "pageCount": 1,
+        "totalHits": 635,
+        "totalPages": 64,
+        "pageSize": 10
+    }
+}

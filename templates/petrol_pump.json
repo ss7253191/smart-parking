@@ -1,0 +1,120 @@
+{
+    "suggestedLocations": [
+        {
+            "distance": 361,
+            "eLoc": "S4BTB4",
+            "keywords": [
+                "TRNPMP"
+            ],
+            "orderIndex": 1,
+            "placeAddress": "13/2, Khandwa Road, Palda Village, Indore, Madhya Pradesh, 452001",
+            "placeName": "Bharat Petroleum Petrol Pump",
+            "type": "POI"
+        },
+        {
+            "distance": 1133,
+            "eLoc": "X9B2PQ",
+            "keywords": [
+                "TRNPMP"
+            ],
+            "orderIndex": 2,
+            "placeAddress": "Survey No 274/1/4, Village Chitawad, Taluka Indore, District Indore, Indore, Madhya Pradesh, 452001",
+            "placeName": "Nayara Petrol Pump",
+            "type": "POI"
+        },
+        {
+            "distance": 1219,
+            "eLoc": "V3D4NT",
+            "keywords": [
+                "TRNPMP"
+            ],
+            "orderIndex": 3,
+            "placeAddress": "Navlakha To Teen Imli Chitawad, Survey No 182/1 Ph No 38 Gram Chitawad District, Indore, Madhya Pradesh, 452001",
+            "placeName": "Indian Oil Petrol Pump",
+            "type": "POI"
+        },
+        {
+            "distance": 1251,
+            "eLoc": "838R29",
+            "keywords": [
+                "TRNPMP"
+            ],
+            "orderIndex": 4,
+            "placeAddress": "22A, 23B, Vijay Udyog Nagar, Scheme No 94 H, Ring Road, Indore, Madhya Pradesh, 452001",
+            "placeName": "HP Petrol Pump",
+            "type": "POI"
+        },
+        {
+            "distance": 1251,
+            "eLoc": "SPRYSZ",
+            "keywords": [
+                "TRNPMP"
+            ],
+            "orderIndex": 5,
+            "placeAddress": "Indore Khandwa Road, Before By Pass, Indore, Madhya Pradesh, 452001",
+            "placeName": "Bharat Petroleum Petrol Pump",
+            "type": "POI"
+        },
+        {
+            "distance": 1289,
+            "eLoc": "FF5853",
+            "keywords": [
+                "TRNPMP"
+            ],
+            "orderIndex": 6,
+            "placeAddress": "Pawan Nagar, Musakheri, Indore, Madhya Pradesh, 452001",
+            "placeName": "Nayara Petrol Pump",
+            "type": "POI"
+        },
+        {
+            "distance": 1714,
+            "eLoc": "SDBDSA",
+            "keywords": [
+                "TRNPMP"
+            ],
+            "orderIndex": 7,
+            "placeAddress": "IDA Scheme No 94, Sector K, Bholaram Ustad Marg, Ring Road, Indore, Madhya Pradesh, 452001",
+            "placeName": "Bharat Petroleum Petrol Pump",
+            "type": "POI"
+        },
+        {
+            "distance": 1879,
+            "eLoc": "C58621",
+            "keywords": [
+                "TRNPMP"
+            ],
+            "orderIndex": 8,
+            "placeAddress": "Navlakha Chouraha, Tehsil Indore, AB Road, On BRTS, Indore, Madhya Pradesh, 452001",
+            "placeName": "HP Petrol Pump",
+            "type": "POI"
+        },
+        {
+            "distance": 1915,
+            "eLoc": "3M2GHS",
+            "keywords": [
+                "TRNPMP"
+            ],
+            "orderIndex": 9,
+            "placeAddress": "Near Rajiv Gandhi Circle, Ring Road, Indore, Madhya Pradesh, 452001",
+            "placeName": "HP Petrol Pump",
+            "type": "POI"
+        },
+        {
+            "distance": 2065,
+            "eLoc": "SONTPL",
+            "keywords": [
+                "TRNPMP"
+            ],
+            "orderIndex": 10,
+            "placeAddress": "Palda Main Road, Dinesh Nagar, Palda, Indore, Madhya Pradesh, 452001",
+            "placeName": "Indian Oil Petrol Pump",
+            "type": "POI"
+        }
+    ],
+    "pageInfo": {
+        "pageCount": 1,
+        "totalHits": 115,
+        "totalPages": 12,
+        "pageSize": 10
+    }
+}

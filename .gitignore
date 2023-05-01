@@ -1,0 +1,7 @@
+venv/
+__pycache__
+.vscode
+parking.pem
+ParkingSpacePicker_video.py
+ParkingSpacePicker.py
+space.py

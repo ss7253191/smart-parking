@@ -1,0 +1,120 @@
+{
+    "suggestedLocations": [
+        {
+            "distance": 352,
+            "eLoc": "F7EGRX",
+            "keywords": [
+                "COMPUB"
+            ],
+            "orderIndex": 1,
+            "placeAddress": "Bharat Petrol Pump, Limbodi Road, Davv Takshila Parisar, Indore, Madhya Pradesh, 452001",
+            "placeName": "SBM Toilet",
+            "type": "POI"
+        },
+        {
+            "distance": 819,
+            "eLoc": "XM9LO2",
+            "keywords": [
+                "COMPUB"
+            ],
+            "orderIndex": 2,
+            "placeAddress": "Sector B, Rani Bagh Main, Indore, Madhya Pradesh, 452001",
+            "placeName": "SBM Toilet",
+            "type": "POI"
+        },
+        {
+            "distance": 834,
+            "eLoc": "XMF8IJ",
+            "keywords": [
+                "COMPUB"
+            ],
+            "orderIndex": 3,
+            "placeAddress": "Khandwa Road, Narmada Nagar, Bhawarkuan, Davv Takshila Parisar, Indore, Madhya Pradesh, 452001",
+            "placeName": "SBM Toilet",
+            "type": "POI"
+        },
+        {
+            "distance": 852,
+            "eLoc": "XMDC57",
+            "keywords": [
+                "COMPUB"
+            ],
+            "orderIndex": 4,
+            "placeAddress": "Teen Imli Bus Stand, Eastern Ring Road, Anand Nagar, Navlakha, Indore, Madhya Pradesh, 452001",
+            "placeName": "SBM Toilet",
+            "type": "POI"
+        },
+        {
+            "distance": 941,
+            "eLoc": "XM7OZU",
+            "keywords": [
+                "COMPUB"
+            ],
+            "orderIndex": 5,
+            "placeAddress": "MP SH 27, Sector A, Rani Bagh Main, Indore, Madhya Pradesh, 452001",
+            "placeName": "SBM Toilet",
+            "type": "POI"
+        },
+        {
+            "distance": 960,
+            "eLoc": "TPPHK9",
+            "keywords": [
+                "COMPUB"
+            ],
+            "orderIndex": 6,
+            "placeAddress": "Pipliyapala, Indore, Madhya Pradesh, 452001",
+            "placeName": "SBM Toilet",
+            "type": "POI"
+        },
+        {
+            "distance": 1054,
+            "eLoc": "XMGYBX",
+            "keywords": [
+                "COMPUB"
+            ],
+            "orderIndex": 7,
+            "placeAddress": "Chitawad Road, Teen Imli Square, Sajan Nagar, Navlakha, Indore, Madhya Pradesh, 452001",
+            "placeName": "SBM Toilet",
+            "type": "POI"
+        },
+        {
+            "distance": 1153,
+            "eLoc": "1LQE66",
+            "keywords": [
+                "COMPUB"
+            ],
+            "orderIndex": 8,
+            "placeAddress": "Davv University, Indore, Madhya Pradesh, 452001",
+            "placeName": "SBM Toilet",
+            "type": "POI"
+        },
+        {
+            "distance": 1194,
+            "eLoc": "6V2HCL",
+            "keywords": [
+                "COMPUB"
+            ],
+            "orderIndex": 9,
+            "placeAddress": "Ward 77 Ganesh Anger, Indore, Madhya Pradesh, 452001",
+            "placeName": "Swachh Public Toilet",
+            "type": "POI"
+        },
+        {
+            "distance": 1223,
+            "eLoc": "XMFVU0",
+            "keywords": [
+                "COMPUB"
+            ],
+            "orderIndex": 10,
+            "placeAddress": "Indian Oil Petrol Pump, Chitawad, Kaushalyapuri, Indore, Madhya Pradesh, 452001",
+            "placeName": "SBM Toilet",
+            "type": "POI"
+        }
+    ],
+    "pageInfo": {
+        "pageCount": 1,
+        "totalHits": 695,
+        "totalPages": 70,
+        "pageSize": 10
+    }
+}

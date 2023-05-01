@@ -1,0 +1,153 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    /* Prevent from resizing below 320px */
+    min-width: 320px;
+    background-image: url("https://wallpaperaccess.com/full/4327427.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-brand {
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
+
+.modal-style .modal-login .modal-content {
+    margin-bottom: 15px;
+    background: #fff;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+}
+
+.modal-style .modal-login h4 {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 0;
+    border-bottom: 0;
+    text-transform: uppercase;
+    line-height: 1;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+.modal-style .modal-login label {
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.modal-style .modal-login .form-control {
+    min-height: 38px;
+    padding-left: 5px;
+    border-width: 0 0 1px 0;
+    border-radius: 0;
+    font-size: 14px
+}
+
+.modal-style .modal-login .modal-footer {
+    color: #999;
+    border-color: #dee4e7;
+    text-align: center;
+    margin: 0 -10px -10px;
+    font-size: 16px;
+    justify-content: center;
+}
+
+.input-group {
+    /* margin: 4px 2px;
+    padding: 2px 2px; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 16%;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    cursor: pointer;
+    background: hsla(0, 0%, 100%, .78);
+    border-radius: 25px;
+    transition: all 0.4s ease;
+}
+
+.card:hover {
+    color: black;
+    transform: scale(1.05);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px
+}
+
+.card-title {
+    text-transform: uppercase;
+    font-size: 1.575rem;
+    font-weight: 600;
+}
+
+.box-shadow {
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.9);
+}
+
+.btn {
+    border-radius: 25px;
+}
+
+.navbar-brand,
+.nav-link {
+    color: white !important;
+}
+
+@media only screen and (max-width: 360px) {
+    .modal-style .modal-login {
+        width: 100%;
+        margin: 5px;
+    }
+
+    .modal-style .modal-login form {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .main {
+        margin-top: 2%;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 575px) {
+    .main {
+        margin-top: 4%;
+    }
+}
+
+@media screen and (min-width: 575px) and (max-width: 768px) {
+    .main {
+        margin-top: 5%;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .main {
+        margin-top: 8%;
+    }
+
+}
