@@ -518,4 +518,4 @@ if __name__ == "__main__":
     # app.config['SESSION_TYPE'] = 'filesystem'
     # sess.init_app(app)
     # app.secret_key = secrets.token_hex(16)
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=5000)
